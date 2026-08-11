@@ -1,21 +1,48 @@
 # ⚛️ React Practice & Components
 
-A collection of hands-on React applications built to strengthen my understanding of **component architecture, state management, React Hooks, API integration, and reusable UI development**.
+A collection of hands-on React applications built to strengthen my understanding of **component architecture, React Hooks, state management, API integration, and reusable UI development** through practical projects.
 
-## 📂 Projects Included
+---
 
-### 1. 🖼️ Gallery App
-**Folder:** `/gallery-app`
+## 🚀 Live Demos
+
+| Project | Live Demo |
+|---------|-----------|
+| 🖼️ Gallery App | https://gallery-app-sp.vercel.app |
+| 📝 Sticky Notes | https://sticy-notes.vercel.app |
+| 🧩 Page Practice | https://page-practice-sp.vercel.app |
+| 🔢 React Counter | https://react-counter-sp.vercel.app |
+
+---
+
+## ✨ Features
+
+- Reusable React components
+- React Hooks (`useState`, `useEffect`)
+- API integration with Axios
+- CRUD operations
+- Dynamic rendering
+- Pagination
+- Responsive UI with Tailwind CSS
+- Component-based architecture
+
+---
+
+## 📂 Projects
+
+### 🖼️ Gallery App (`/gallery-app`)
 
 An image gallery that fetches images from the Picsum API with pagination and dynamic rendering.
 
-**Tech Stack:**
+**Tech Stack**
+
 - React 19
 - Vite
 - Tailwind CSS
 - Axios
 
-**Concepts Practiced:**
+**Concepts Practiced**
+
 - API Integration
 - `useState`
 - `useEffect`
@@ -25,35 +52,37 @@ An image gallery that fetches images from the Picsum API with pagination and dyn
 
 ---
 
-### 2. 📝 Sticky Notes
-**Folder:** `/sticky-notes`
+### 📝 Sticky Notes (`/sticky-notes`)
 
-A CRUD-based sticky notes application for creating, updating, and deleting notes using React state.
+A CRUD-based notes application for creating, updating, and deleting notes using React state.
 
-**Tech Stack:**
+**Tech Stack**
+
 - React 19
 - Tailwind CSS
 
-**Concepts Practiced:**
+**Concepts Practiced**
+
 - State Management
-- Array State Updates
 - CRUD Operations
+- Array State Updates
 - Event Handling
 - Conditional Rendering
 
 ---
 
-### 3. 🧩 Page Practice
-**Folder:** `/page-practice`
+### 🧩 Page Practice (`/page-practice`)
 
-A component-based UI practice project focused on creating reusable components and rendering multiple user cards using props.
+A component-based UI project focused on creating reusable components and rendering multiple user cards using props.
 
-**Tech Stack:**
+**Tech Stack**
+
 - React
 - Tailwind CSS
 - Lucide React
 
-**Concepts Practiced:**
+**Concepts Practiced**
+
 - Reusable Components
 - Props
 - Component Composition
@@ -61,12 +90,12 @@ A component-based UI practice project focused on creating reusable components an
 
 ---
 
-### 4. 🔢 React Counter
-**Folder:** `/react-counter`
+### 🔢 React Counter (`/react-counter`)
 
-A simple counter application built to understand React state updates and side effects.
+A simple counter application built to understand React state updates and component lifecycle behavior.
 
-**Concepts Practiced:**
+**Concepts Practiced**
+
 - `useState`
 - `useEffect`
 - Event Handling
@@ -74,33 +103,62 @@ A simple counter application built to understand React state updates and side ef
 
 ---
 
-## 💡 What I Learned
-
-Through these projects, I practiced:
-
-- Building reusable React components
-- Managing state with `useState`
-- Handling side effects with `useEffect`
-- Passing data through props
-- Integrating external APIs using Axios
-- Managing loading and pagination states
-- Rendering dynamic lists
-- Performing CRUD operations
-- Structuring component-based applications
-- Building responsive interfaces with Tailwind CSS
-
 ## 🛠️ Tech Stack
 
 - React
-- JavaScript
+- JavaScript (ES6+)
 - Vite
 - Tailwind CSS
 - Axios
 - Lucide React
 
-## 🚀 How to Run
+---
+
+## 💡 What I Learned
+
+Throughout these projects, I practiced:
+
+- Building reusable React components
+- Managing state using `useState`
+- Handling side effects with `useEffect`
+- Passing data using Props
+- Integrating REST APIs with Axios
+- Managing loading and pagination states
+- Rendering dynamic lists efficiently
+- Performing CRUD operations
+- Structuring scalable React applications
+- Building responsive interfaces with Tailwind CSS
+
+---
+
+## 🚀 Getting Started
 
 Clone the repository:
 
 ```bash
-git clone https://github.com/suryaprakash-sankhla/react-practice.git
+git clone https://github.com/suryaprakash-sankhla/react-practise.git
+```
+
+Navigate to any project folder:
+
+```bash
+cd project-folder
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+---
+
+## 🎯 Purpose
+
+This repository documents my journey of learning **React** by building practical applications that focus on component-based architecture, state management, React Hooks, API integration, and modern front-end development practices.
